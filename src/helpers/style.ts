@@ -1,0 +1,8 @@
+import "../scss/home.scss"
+import "../scss/colors.scss"
+import "../scss/auth.scss"
+import "../scss/contact.scss"
+import "../scss/inbox.scss"
+import "../scss/modalcontact.scss"
+import "../scss/alert.scss"
+import "../scss/call.scss"

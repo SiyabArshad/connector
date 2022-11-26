@@ -1,0 +1,101 @@
+@import "colors";
+.inbheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.inbhfc{
+    display: flex;
+    flex-direction: column;
+    ul{
+        list-style: none;
+    }
+}
+.inbnameit{
+    font-size: 1.3rem;
+    color: $whitec;
+}
+.inbonlineit{
+    font-size: .8rem;
+    color: $whitec;
+}
+.customicon{
+    color: $secondary;
+    font-size: 1.3rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.inbchatsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+.inbmessages{
+    padding: 1.5rem 2rem;
+    overflow-y: scroll;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    background-color: $grey2;
+    color: $whitec;
+    font-size: .9rem;
+    padding: .5rem 1rem;
+    border-top-right-radius:.5rem ;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: .5rem;
+}
+.inbincomming{
+    display: flex;
+    justify-content: start;
+    margin-bottom: .5rem;
+    span{
+        font-size: .7rem;
+        margin-top: .5rem;
+    }
+}
+.inboutgoing{
+    display: flex;
+    justify-content: end;
+    margin-bottom: .5rem;
+    
+    span{
+        font-size: .7rem;
+        margin-top: .5rem;
+    }
+}
+.inbtype{
+    padding: .2rem .5rem;
+    position: fixed;
+    width: 85%;
+    bottom: 1px;
+    input{
+        width: 80%;
+        padding: .5rem 1rem;
+        border: none;
+        outline: none;
+        border-radius: .3rem;
+        background-color: $grey1;
+        color: $whitec;
+    }::placeholder{
+        color: $whitec;
+    }
+    
+    button{
+        border: none;
+        padding: .5rem 1rem;
+        margin-left: .5rem;
+        border-radius: .3rem;
+        color: $whitec;
+        background-color: $secondary;
+        cursor: pointer;
+    }
+}

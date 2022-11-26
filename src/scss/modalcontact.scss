@@ -1,0 +1,53 @@
+@import "colors";
+.adnccont1{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba($color: #000000, $alpha: 0.7);
+}
+.mnform{
+    z-index: 11;
+    background-color: $grey2;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:400px ;
+    padding: 1.5rem 1rem;
+    overflow: hidden;
+    input{
+        all: unset;
+        width: 90%;
+        margin-top: .5rem;
+        padding: .5rem 1rem;
+        outline: none;
+        color: $whitec;
+        border: 1px solid $secondary;
+    }
+    button{
+        all:unset;
+        margin-top: .5rem;
+        background-color: $secondary;
+        color: $whitec;
+        padding: .4rem 1rem;
+        border-radius: .3rem;
+        cursor: pointer;
+    }
+}
+.formheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    p{
+        color: $whitec;
+        font-weight: bold;
+    }
+    i{
+        color: $whitec;
+        cursor:pointer;
+    }
+}

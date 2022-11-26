@@ -1,0 +1,82 @@
+@import "colors" ;
+.authmncont{
+    min-height: 100vh;
+
+}
+.authheader{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        
+    }
+    h1{
+        all: unset;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: $whitec;
+        font-weight: bolder;    
+    }
+}
+.authcont2{
+    padding: 10px;
+    
+}
+.authcat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .authchecked{
+        all:unset;
+        background-color: $secondary;
+        padding: .5rem 1rem;
+        color: $whitec;
+        margin-right: .5rem;
+        border-radius: .3rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        cursor: pointer;
+    }
+    .authunchecked{
+        all:unset;
+        padding: .5rem 1rem;
+        color: $whitec;
+        margin-right: .5rem;
+        border-radius: .3rem;
+        cursor: pointer;
+        border: 1px solid $secondary;
+    }
+}
+.authbtns{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span{
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        color: $whitec;
+       }
+}
+.cwg{
+    display: block;
+    border-style: none;
+    color: $whitec;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    background-color: rgb(239, 92, 0);
+    cursor: pointer;
+}
+.cwf{
+    display: block;
+    border-style: none;
+    color: $whitec;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    background-color: $secondary;
+    cursor: pointer;
+}
